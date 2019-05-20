@@ -9,7 +9,7 @@
 
 **State: Draft**
 
-[A code of conduc](hhttps://opensource.microsoft.com/codeofconduct/)
+[A code of conduc](hhttps://opensource.microsoft.com/codeofconduct/) 
 
 
 # 
