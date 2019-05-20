@@ -9,11 +9,11 @@
 
 **State: Draft**
 
-[A code of conduc](hhttps://opensource.microsoft.com/codeofconduct/) 
+
 
 
 # 
-
+[A code of conduct](hhttps://opensource.microsoft.com/codeofconduct/) 
 
 # Best Practices for Designing a Pragmatic RESTful API
 
