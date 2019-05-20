@@ -8,7 +8,8 @@
 **Author: Jaspinder Singh <[jaspinder@ucreate.co.in](mailto:jaspinder@ucreate.co.in)>**
 
 **State: Draft**
-**[A code of conduct](hhttps://opensource.microsoft.com/codeofconduct/)** 
+
+[A code of conduct](https://opensource.microsoft.com/codeofconduct)
 
 
 
