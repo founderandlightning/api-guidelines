@@ -2,13 +2,6 @@
 
 # API Documentation
 
-
-## 22<sup>nd</sup> April 2019
-
-**Author: Jaspinder Singh <[jaspinder@ucreate.co.in](mailto:jaspinder@ucreate.co.in)>**
-
-**State: Draft**
-
 [A code of conduct](https://opensource.microsoft.com/codeofconduct)
 
 
