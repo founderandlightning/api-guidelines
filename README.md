@@ -6,7 +6,7 @@
 
 
 
-# 
+#
 
 
 # Best Practices for Designing a Pragmatic RESTful API
@@ -41,6 +41,7 @@ Your data model has started to stabilize and you're in a position to create a pu
 *   [Include response headers that facilitate caching](#Caching)
 *   [Define a consumable error payload](#Errors)
 *   [Effectively use HTTP Status codes](#http-status-codes)
+*   [Loading CSV to database](#loading-csv-to-database)
 
 
 ## Key requirements for the API
@@ -244,7 +245,7 @@ An API is only as good as its documentation. The docs should be easy to find and
  I'll just leave you the following Google Trends chart ([XML API vs JSON API](http://www.google.com/trends/explore?q=xml+api#q=xml%20api%2C%20json%20api&cmpt=q)) as food for thought:
 
 
-# 
+#
 
 
 ![alt_text](https://www.vinaysahni.com/images/201305-xml-vs-json-api.png "")
@@ -348,7 +349,7 @@ An API is only as good as its documentation. The docs should be easy to find and
    status_code: 200,
    next_page: "https://..",
    response: {
-     ... actual JSON response body ... 
+     ... actual JSON response body ...
    }
  })
 ```
@@ -581,6 +582,10 @@ An API is only as good as its documentation. The docs should be easy to find and
 *   `415 Unsupported Media Type` - If incorrect content type was provided as part of the request
 *   `422 Unprocessable Entity` - Used for validation errors
 *   `429 Too Many Requests` - When a request is rejected due to rate limiting
+
+## Loading CSV to database
+This guidline will be helpful when there is a need to load a large datasets to the database.
+[Loading CSV to database](./loading-csv-to-database/README.md)
 
 
 ## In Summary
