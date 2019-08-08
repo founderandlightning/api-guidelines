@@ -32,9 +32,8 @@ INSERT INTO [...] ON CONFLICT ON CONSTRAINT [...] DO UPDATE SET [...]
 Script uploads csv to temporary table in batches.
 Thanks to this we know about loading progress and we don't get `heap out of memory` like here:
 ![heap out of memory](./out_of_memory.png)
-When it is finished, it migrates data to proper table and delete temporary one.
-The example script is [here]('./load_csv_to_database').
-And execution is [here]('./load_example.js').
+When it is finished, it migrates data to a proper table and deletes temporary one.
+The example code is [here]('https://github.com/uCreateit/code-snippets/tree/master/Loading%20csv%20to%20database').
 
 ### What about migrations?
 Sometimes we have a lot of columns in csv, so rewriting everything is time consuming and boooring.
@@ -44,7 +43,7 @@ It is recommended to use [csvkit](https://csvkit.readthedocs.io/en/latest/index.
 But before creating migration with it - make sure that there is proper data types.
 ![example of output of the csvsql command](./create_sql.png)
 
-#### So there is a full path:
+#### There is a full path:
 1. We have task to load animals species into the api database
 2. R&D team works on it and provides us with data as `animal_species.csv` file
 3. Backend team creates a migration. Then we use csvkit that generates `CREATE TABLE` sql statement for us. We only check and correct it.
@@ -56,7 +55,7 @@ But before creating migration with it - make sure that there is proper data type
 
 Everyone is encouraged to contribute.
 If you see some places for refactoring in the example code - open an issue and it will be dealt with.
-If anyone has any questions, please open an issue for that or ping me on slack.
+If anyone has any questions, please open an issue for that or ping me [Marcin Zaremski](https://github.com/mzaremski) on slack.
 
 Useful tools:
 - https://git-lfs.github.com/
