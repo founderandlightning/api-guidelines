@@ -581,6 +581,13 @@ An API is only as good as its documentation. The docs should be easy to find and
 *   `415 Unsupported Media Type` - If incorrect content type was provided as part of the request
 *   `422 Unprocessable Entity` - Used for validation errors
 *   `429 Too Many Requests` - When a request is rejected due to rate limiting
+*   `5xx Server Error` - It means the server failed to fulfill an apparently a valid request.
+    *   `500 Internal Server Error` - The server has encountered a situation it doesn't know how to handle.
+    *   `502 Bad Gateway` - This error response means that the server, while working as a gateway to get a response needed to handle the request, got an invalid response.
+    *   `503 Server Unavailable` - The server is not ready to handle the request. Common causes are a server that is down for maintenance or that is overloaded.
+
+
+There are some other 5xx errors but I think above listed errors for server should be hanlded correctly.
 
 
 ## In Summary
